@@ -1,0 +1,265 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+.page {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow-x: hidden;
+}
+
+.section-cover {
+  margin-top: 56px;
+  position: relative;
+  overflow: hidden;
+  width: 100vw;
+  height: 20vh;
+  text-align: center;
+}
+
+.section-photo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.section__image {
+  flex-shrink: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.section__image_size-1 {
+  height: 600px;
+  width: 32%;
+}
+
+.section__image_size-2 {
+  height: 800px;
+  width: 100%;
+}
+
+.section__image_size-3 {
+  height: 900px;
+  width: 49%;
+}
+
+.section-photo .section__sun_01 {
+  background-image: url(../img/sun_01.jpg);
+  animation-duration: 1s;
+}
+
+.section-photo .section__sun_02 {
+  background-image: url(../img/sun_02.jpg);
+  animation-duration: 1.1s;
+}
+
+.section-photo .section__sun_03 {
+  background-image: url(../img/sun_03.jpg);
+  animation-duration: 1.2s;
+}
+
+.section-photo .section__sun_04 {
+  background-image: url(../img/sun_04.jpg);
+  margin-top: 20px;
+}
+
+.section-photo .section__sun_05 {
+  background-image: url(../img/sun_05.jpg);
+  margin-top: 20px;
+}
+
+.section-photo .section__sun_06 {
+  background-image: url(../img/sun_06.jpg);
+  margin-top: 20px;
+}
+
+.section-photo .section__girl_01 {
+  background-image: url(../img/girl_01.jpg);
+  margin-bottom: 20px;
+  animation-duration: 1s;
+}
+
+.section-photo .section__girl_02 {
+  background-image: url(../img/girl_02.jpg);
+  animation-duration: 1.1s;
+}
+
+.section-photo .section__girl_03 {
+  background-image: url(../img/girl_03.jpg);
+  animation-duration: 1.2s;
+}
+
+.section-photo .section__girl_04 {
+  background-image: url(../img/girl_04.jpg);
+}
+
+.section-photo .section__girl_05 {
+  background-image: url(../img/girl_05.jpg);
+  margin-top: 20px;
+}
+
+.section-photo .section__girl_06 {
+  background-image: url(../img/girl_06.jpg);
+  margin-top: 20px;
+}
+
+.section-photo .section__love_01 {
+  background-image: url(../img/love_01.jpg);
+  animation: img-slide ease-in 1.2s;
+}
+
+.section-photo .section__love_02 {
+  background-image: url(../img/love_02.jpg);
+  margin-top: 20px;
+}
+
+.section-photo .section__love_03 {
+  background-image: url(../img/love_03.jpg);
+  margin-top: 20px;
+}
+
+.section-photo .section__love_04 {
+  background-image: url(../img/love_04.jpg);
+  margin-top: 20px;
+}
+
+.section-photo .section__love_05 {
+  background-image: url(../img/love_05.jpg);
+  margin-top: 20px;
+}
+
+.section-photo .section__love_06 {
+  background-image: url(../img//love_06.jpg);
+  margin-top: 20px;
+}
+
+.section-photo .section__man_01 {
+  background-image: url(../img/man_01.jpg);
+  margin-bottom: 20px;
+  animation-duration: 1s;
+}
+
+.section-photo .section__man_02 {
+  background-image: url(../img//man_02.jpg);
+  animation-duration: 1.1s;
+}
+
+.section-photo .section__man_03 {
+  background-image: url(../img/man_03.jpg);
+  animation-duration: 1.2s;
+}
+
+.section-photo .section__man_04 {
+  background-image: url(../img/man_04.jpg);
+}
+
+.section-photo .section__man_05 {
+  background-image: url(../img/man_05.jpg);
+  margin-top: 20px;
+}
+
+.section-photo .section__man_06 {
+  background-image: url(../img/man_06.jpg);
+  margin-top: 20px;
+}
+
+.section-photo .section__frost_01 {
+  background-image: url(../img/frost_01.jpg);
+  animation: img-slide ease-in 1.2s;
+}
+
+.section-photo .section__frost_02 {
+  background-image: url(../img/frost_02.jpg);
+  margin-top: 20px;
+}
+
+.section-photo .section__frost_03 {
+  background-image: url(../img/frost_03.jpg);
+  margin-top: 20px;
+}
+
+.section-photo .section__frost_04 {
+  background-image: url(../img/frost_04.jpg);
+  margin-top: 20px;
+}
+
+.section-photo .section__frost_05 {
+  background-image: url(../img/frost_05.jpg);
+  margin-top: 20px;
+}
+
+.section-photo .section__frost_06 {
+  background-image: url(../img/frost_06.jpg);
+  margin-top: 20px;
+}
+
+.section__girl_01, .section__girl_02, .section__girl_03 {
+  animation: img-slide ease-in 1.2s;
+}
+
+.section__sun_01, .section__sun_02, .section__sun_03 {
+  animation: img-slide ease-in 1.2s;
+}
+
+.section__man_01, .section__man_02, .section__man_03 {
+  animation: img-slide ease-in 1.2s;
+}
+
+@media screen and (max-width: 1080px) {
+  .section__sun_01, .section__sun_02, .section__sun_03, .section__girl_01, .section__girl_02, .section__girl_03, .section__man_01, .section__man_02, .section__man_03 .section__love_02, .section__love_03, .section__love_04, .section__frost_02, .section__frost_03, .section__frost_04 {
+    height: 400px;
+  }
+  .section__sun_04, .section__girl_04, .section__man_04, .section__love_01, .section__love_05, .section__love_06, .section__frost_01, .section__frost_05, .section__frost_06 {
+    height: 500px;
+  }
+  .section__sun_05, .section__sun_06, .section__girl_05, .section__girl_06, .section__man_05, .section__man_06 {
+    height: 600px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .section__image {
+    width: 100%;
+    height: 80vh;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    animation: unset;
+  }
+  .section__sun_04, .section__girl_04, .section__man_04, .section__love_01, .section__love_05, .section__love_06, .section__frost_01, .section__frost_05, .section__frost_06 {
+    height: 400px;
+  }
+}
+
+.section-about {
+  padding-top: 90px;
+}
+
+.section-about .inner__text {
+  padding: 0 20px;
+  font-family: Cormorant;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 36px;
+  text-align: center;
+  animation: left 1.5s;
+}
+
+.section-about .inner__title {
+  font-family: Cormorant;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 35px;
+  line-height: 29px;
+  text-align: center;
+  animation: left 1.5s;
+}

@@ -1,0 +1,31 @@
+@font-face {
+  font-family: 'Proxima Nova Light';
+  src: url('ProximaNova-Light.eot');
+  src: url('ProximaNova-Light.eot?#iefix') format('embedded-opentype'), url('ProximaNova-Light.woff') format('woff'), url('../fonts/ProximaNova-Light.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Proxima Nova Regular';
+  src: url('ProximaNova-Regular.eot');
+  src: url('ProximaNova-Regular.eot?#iefix') format('embedded-opentype'), url('../fonts/ProximaNova-Regular.woff') format('woff'), url('ProximaNova-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Cormorant Garamond Regular';
+  src: url('CormorantGaramond-Regular.eot');
+  src: url('CormorantGaramond-Regular.eot?#iefix') format('embedded-opentype'), url('../fonts/CormorantGaramond-Regular.woff') format('woff'), url('CormorantGaramond-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Cormorant Garamond Bold';
+  src: url('CormorantGaramond-Bold.eot');
+  src: url('CormorantGaramond-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/CormorantGaramond-Bold.woff') format('woff'), url('CormorantGaramond-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
